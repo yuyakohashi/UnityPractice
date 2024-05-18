@@ -262,8 +262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 309.7466, y: 167.61845}
-  m_SizeDelta: {x: 256.9069, y: 52.3631}
+  m_AnchoredPosition: {x: 325.8978, y: 167.61845}
+  m_SizeDelta: {x: 224.6045, y: 52.3631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &421759705
 MonoBehaviour:
@@ -931,8 +931,8 @@ GameObject:
   - component: {fileID: 1984644241}
   - component: {fileID: 1984644240}
   - component: {fileID: 1984644239}
-  - component: {fileID: 1984644243}
   - component: {fileID: 1984644244}
+  - component: {fileID: 1984644243}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1079,5 +1079,5 @@ SceneRoots:
   - {fileID: 161856479}
   - {fileID: 1984644242}
   - {fileID: 1291406534}
-  - {fileID: 1585401496}
   - {fileID: 1623598850}
+  - {fileID: 1585401496}
