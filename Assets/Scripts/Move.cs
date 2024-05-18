@@ -37,8 +37,7 @@ public class Move : MonoBehaviour
     {
         if (collision.gameObject.tag == "Gool")
         {
-            _isStop = true;
-            _rigidBody.Sleep();
+            Time.timeScale = 0;
         }
     }
 }
