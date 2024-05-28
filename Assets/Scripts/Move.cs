@@ -14,6 +14,10 @@ public class Move : MonoBehaviour
     {
         if (!_isStop)
         {
+            ///プレイヤーが自動で進み、ゴールまで向かう処理
+            _rigidBody.velocity = transform.forward * _speed;
+
+            /*
             if (Input.GetKey(KeyCode.W))// Wキー（前方移動）
             {
                 _rigidBody.velocity = transform.forward * _speed;
@@ -30,6 +34,7 @@ public class Move : MonoBehaviour
             {
                 _rigidBody.velocity = -transform.right * _speed;
             }
+            */
         }
         //https://candle-stoplight-544.notion.site/4e021f226d584730b715626436ccc330
     }
