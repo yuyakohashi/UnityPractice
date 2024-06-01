@@ -1060,6 +1060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rigidBody: {fileID: 1984644244}
   _speed: 8
+  xLimit: 9.5
   _isStop: 0
 --- !u!54 &1984644244
 Rigidbody:
