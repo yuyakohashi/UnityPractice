@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CreateCobe : MonoBehaviour
+public class CreateItem : MonoBehaviour
 {
     /// <summary>
     /// TODO: スタート地点とゴール地点の位置をとってきてフィールド上に５m等間隔でCubeを生成したい
