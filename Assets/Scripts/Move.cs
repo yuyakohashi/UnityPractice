@@ -10,7 +10,7 @@ public class Move : MonoBehaviour
 
     void Awake()
     {
-        _rigidBody = GetComponent<Rigidbody>();
+        _rigidBody = GetComponent<Rigidbody>();//拾えるものは拾う
     }
     void Update()
     {
@@ -18,7 +18,8 @@ public class Move : MonoBehaviour
         {
             ///プレイヤーが自動で進み、ゴールまで向かう処理
             _rigidBody.velocity = transform.forward * _speed * 2f;
-
+            //_rigidBody.velocity = new Vector3(Input.GetAxisRaw("Horizontal") * _speed, 0, 10);
+            
             if (Input.GetKey(KeyCode.D))// Dキー（右移動）
             {
                 _rigidBody.AddForce(transform.right * 10 * _speed);
